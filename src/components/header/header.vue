@@ -63,14 +63,14 @@
             img
                 height: 88px
                 width: 88px
+                display: inline-block
                 vertical-align: top;
             .text
-                display: inline-block
                 font-size 60px
                 margin-left: 10px
                 line-height: 88px
                 font-family "papyrus"
-                vertical-align bottom
+                vertical-align: top;
         .main-first
             text-align right
             flex 1

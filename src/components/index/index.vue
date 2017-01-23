@@ -36,6 +36,12 @@
                 <v-feature></v-feature>
             </div>
         </section>
+        <section class="notice">
+            <!--此处不要直接使用<,>之类的符号,使用的时候需要转义-->
+            <span class="date">2016-08-12</span>
+            <span class="content">更新了整体架构和首页导航</span>
+            <span class="more">更多更新值得期待</span>
+        </section>
     </div>
 </template>
 
@@ -67,8 +73,8 @@
         min-height: 600px
         .feature-container
             display flex
-            width: 95%
-            margin:20px auto
+            width: 90%
+            margin: 20px auto
             .feature-wrapper
                 flex 1
                 margin-right: 10px
@@ -77,4 +83,29 @@
                 &:last-child
                     margin-right: none;
 
+        .notice
+            position: relative
+            width: 90%;
+            margin: 3rem auto;
+            font-size: 1.4rem;
+            line-height: 3rem;
+            background-color: #fff;
+            box-shadow: 0 0 4px #ccc;
+            padding: 5px 15px
+            .date, .content, .more
+                display: inline-block
+            .date::before
+                content: '最新更新: \00a0\00a0'
+                color: #aaa
+            .date
+                color: #999;
+                font-size: 1.2rem;
+                margin-right: 1rem;
+            .more
+                position: absolute
+                right: 2rem
+                color: #f90
+
+
 </style>
+

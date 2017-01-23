@@ -51,3 +51,30 @@ table {
     border-spacing: 0;
 }
 
+
+/*===========
+*   基本默认值
+=============*/
+
+html {
+    font-size: 62.5%;
+    color: #222;
+}
+
+
+/*设置选中文字之后的显示效果*/
+
+::selection {
+    background-color: #b3d4fc;
+    /*background-color: red;*/
+    text-shadow: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}

@@ -1,7 +1,13 @@
 <template>
     <div class="charts">
-        <chart :options="bar" ref="bar"></chart>
-        <chart :options="line" ref="line"></chart>
+        <div class="chart-wrapper">
+            <chart :options="bar" ref="bar"></chart>
+        </div>
+        <div class="chart-wrapper">
+            <chart :options="line" ref="line"></chart>
+        </div>
+        <!--<div class="btn" @click="loadDetail">dsds</div>-->
+        <!--{{ detailPOL }}-->
     </div>
 </template>
 
@@ -22,6 +28,10 @@
 
     export default {
         computed: {
+            detailPOL () {
+                return this.detail
+
+            },
             bar () {
                 return {
                     tooltip: {},
@@ -91,7 +101,7 @@
                     xAxis: [{
                         type: 'category',
                         boundaryGap: false,
-                        axisLine: { onZero: false },
+                        axisLine: {onZero: false},
                         data: this.linedata.xdata,
                     }],
                     yAxis: [{
@@ -159,6 +169,7 @@
         ,
         data () {
             return {
+                detail: {},
                 bardata: {
                     xdata: [],
                     value: []
@@ -183,15 +194,32 @@
                     this.linedata.area.push(tmp.area)
                 }
             })
+        },
+        methods: {
+            loadDetail (){
+                this.$http.get('/api/detail').then((res) => {
+                    let data = res.data.data
+                    this.detail = data.result
+                    console.log(detailPOL)
+                })
+            }
         }
     }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
     .charts
+        display flex
         width: 80%
-        margin: 0 auto
-        .echarts
-            width: 100%
+        margin: 80px auto
+        .chart-wrapper
+            float: 1;
+            display: inline-block
+            margin: 10px auto
+            .echarts
+                display: inline-block
+                box-shadow: 0 0 4px #ccc;
+                margin: 0
+                padding: 0
 
 </style>

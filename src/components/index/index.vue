@@ -36,13 +36,13 @@
                 <v-feature></v-feature>
             </div>
         </section>
-        <section class="notice">
+        <section class="notice ">
             <!--此处不要直接使用<,>之类的符号,使用的时候需要转义-->
             <span class="date">2016-08-12</span>
             <span class="content">更新了整体架构和首页导航</span>
             <span class="more">更多更新值得期待</span>
         </section>
-        <section class="product">
+        <section class="product ">
             <h1 class="title">
                 项目列表
                 <span class="sub-title">不念过往</span>
@@ -131,6 +131,41 @@
                 </div>
             </div>
         </section>
+        <section class="footer">
+            <div class="img-wrapper">
+                <img class="logo" src="static/img/logo.jpg" width="120" height="120">
+            </div>
+            <ul class="title-ul">
+                <li class="title-item">
+                    <h1 class="sub-title">关于我</h1>
+                    <ul class="content-ul">
+                        <li class="content-item">GitHub</li>
+                        <li class="content-item">Email</li>
+                    </ul>
+                </li>
+                <li class="title-item">
+                    <h1 class="sub-title">维护项目</h1>
+                    <ul class="content-ul">
+                        <li class="content-item">n-novel</li>
+                        <li class="content-item">my_website</li>
+                    </ul>
+                </li>
+                <li class="title-item">
+                    <h1 class="sub-title">正在学习</h1>
+                    <ul class="content-ul">
+                        <li class="content-item">Node.js</li>
+                        <li class="content-item">Vue.js</li>
+                    </ul>
+                </li>
+                <li class="title-item">
+                    <h1 class="sub-title">意见反馈</h1>
+                    <ul class="content-ul">
+                        <li class="content-item">feedback</li>
+                        <li class="content-item">contact</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
     </div>
 </template>
 
@@ -195,7 +230,6 @@
                 position: absolute
                 right: 2rem
                 color: #f90
-
         .product
             width: 90%
             margin: 2rem auto
@@ -206,10 +240,11 @@
             .title
                 display: inline-block
                 width: 20%;
-                margin-top: 3rem;
                 text-align: center;
+                vertical-align: top
                 font-size: 2.4rem;
                 font-weight: normal;
+                margin-top: 3rem
                 color: #635c51;
                 .sub-title
                     display: block;
@@ -240,7 +275,7 @@
                     .info
                         display: inline-block
                         width: 48%;
-                        padding: 1rem;
+                        padding: 2rem 0;
                         border-left: 1px solid #eee;
                         border-right: 1px solid #eee;
                         font-size: 14px;
@@ -277,5 +312,25 @@
 
                 .item + .item
                     border-top: 1px solid #eee;
+        .footer
+            background-color: #fff
+            .img-wrapper
+                display inline-block
+                width: 20%
+                margin-left: 100px;
+            .title-ul
+                display: inline-block
+                width: 70%
+                vertical-align: top
+                .title-item
+                    display: inline-block
+                    width: 15%
+                    .sub-title
+                        font-size: 2.6rem;
+                        line-height: 3rem;
+                    .content-ul
+                        .content-item
+                            font-size: 1.4rem;
+                            line-height: 2.4rem;
 </style>
 

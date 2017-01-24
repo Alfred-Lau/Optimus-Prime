@@ -26,79 +26,25 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/index/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="152">
+              <caret line="135" column="82" selection-start-line="135" selection-start-column="82" selection-end-line="135" selection-end-column="82" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#7596#9734#0" expanded="false" />
-                <marker date="1485152831000" expanded="true" signature="5140:5543" ph="{...}" />
-                <marker date="1485152831000" expanded="true" signature="5162:5206" ph="{&quot;v-feature&quot;: Feature...}" />
-                <marker date="1485152831000" expanded="true" signature="5227:5537" ph="{...}" />
-                <marker date="1485152831000" expanded="true" signature="5255:5526" ph="{...}" />
-                <marker date="1485152831000" expanded="true" signature="5304:5510" ph="{...}" />
+                <element signature="n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+                <element signature="e#7177#7460#0" expanded="false" />
+                <element signature="e#7489#8166#0" expanded="false" />
+                <element signature="e#8196#11328#0" expanded="false" />
+                <element signature="e#8419#8893#0" expanded="false" />
+                <marker date="1485227661000" expanded="true" signature="6620:7023" ph="{...}" />
+                <marker date="1485227661000" expanded="true" signature="6642:6686" ph="{&quot;v-feature&quot;: Feature...}" />
+                <marker date="1485227661000" expanded="true" signature="6707:7017" ph="{...}" />
+                <marker date="1485227661000" expanded="true" signature="6735:7006" ph="{...}" />
+                <marker date="1485227661000" expanded="true" signature="6784:6990" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="90" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.base.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev-server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/dev-server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +71,6 @@
         <option value="$PROJECT_DIR$/src/components/charts/charts.vue" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.vue" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/feature/feature.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/header/header.vue" />
@@ -133,6 +78,7 @@
         <option value="$PROJECT_DIR$/build/dev-server.js" />
         <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
         <option value="$PROJECT_DIR$/static/css/reset.css" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/index/index.vue" />
       </list>
     </option>
@@ -149,9 +95,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,6 +189,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,7 +466,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -516,7 +479,8 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="h&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/header/header.vue&#10;app&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/App.vue&#10;re&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/static/css/reset.css&#10;inde&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/index/index.vue&#10;he&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/header/header.vue&#10;ap&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/App.vue&#10;in&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/index/index.vue&#10;ma&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/main.js" />
+    <property name="SearchEverywhereHistoryKey" value="i&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/index/index.vue&#10;h&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/header/header.vue&#10;app&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/App.vue&#10;re&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/static/css/reset.css&#10;inde&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/index/index.vue&#10;he&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/header/header.vue&#10;ap&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/App.vue&#10;in&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/components/index/index.vue&#10;ma&#9;FILE&#9;file:///Users/alfredlau/Development/vueProjects/my_website/src/main.js" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -599,15 +563,17 @@
       <updated>1485069645896</updated>
       <workItem from="1485069650115" duration="29617000" />
       <workItem from="1485141718465" duration="2368000" />
-      <workItem from="1485148453322" duration="4280000" />
+      <workItem from="1485148453322" duration="4397000" />
+      <workItem from="1485153590258" duration="2816000" />
+      <workItem from="1485225680439" duration="1828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36265000" />
+    <option name="totallyTimeSpent" value="41026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15409055" sideWeight="0.49234137" order="0" side_tool="false" content_ui="combo" />
@@ -653,12 +619,162 @@
             <element signature="n#section#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#7596#9734#0" expanded="false" />
-            <marker date="1485152831000" expanded="true" signature="5140:5543" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5162:5206" ph="{&quot;v-feature&quot;: Feature...}" />
-            <marker date="1485152831000" expanded="true" signature="5227:5537" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5255:5526" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5304:5510" ph="{...}" />
+            <element signature="n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#7177#7460#0" expanded="false" />
+            <element signature="e#7489#8166#0" expanded="false" />
+            <element signature="e#8196#11328#0" expanded="false" />
+            <element signature="e#8419#8893#0" expanded="false" />
+            <marker date="1485227661000" expanded="true" signature="6620:7023" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6642:6686" ph="{&quot;v-feature&quot;: Feature...}" />
+            <marker date="1485227661000" expanded="true" signature="6707:7017" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6735:7006" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6784:6990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="90" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#7177#7460#0" expanded="false" />
+            <element signature="e#7489#8166#0" expanded="false" />
+            <element signature="e#8196#11328#0" expanded="false" />
+            <element signature="e#8419#8893#0" expanded="false" />
+            <marker date="1485227661000" expanded="true" signature="6620:7023" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6642:6686" ph="{&quot;v-feature&quot;: Feature...}" />
+            <marker date="1485227661000" expanded="true" signature="6707:7017" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6735:7006" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6784:6990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="90" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#7177#7460#0" expanded="false" />
+            <element signature="e#7489#8166#0" expanded="false" />
+            <element signature="e#8196#11328#0" expanded="false" />
+            <element signature="e#8419#8893#0" expanded="false" />
+            <marker date="1485227661000" expanded="true" signature="6620:7023" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6642:6686" ph="{&quot;v-feature&quot;: Feature...}" />
+            <marker date="1485227661000" expanded="true" signature="6707:7017" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6735:7006" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6784:6990" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -679,12 +795,18 @@
             <element signature="n#section#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#7596#9734#0" expanded="false" />
-            <marker date="1485152831000" expanded="true" signature="5140:5543" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5162:5206" ph="{&quot;v-feature&quot;: Feature...}" />
-            <marker date="1485152831000" expanded="true" signature="5227:5537" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5255:5526" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5304:5510" ph="{...}" />
+            <element signature="n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#7177#7460#0" expanded="false" />
+            <element signature="e#7489#8166#0" expanded="false" />
+            <element signature="e#8196#11328#0" expanded="false" />
+            <element signature="e#8419#8893#0" expanded="false" />
+            <marker date="1485227661000" expanded="true" signature="6620:7023" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6642:6686" ph="{&quot;v-feature&quot;: Feature...}" />
+            <marker date="1485227661000" expanded="true" signature="6707:7017" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6735:7006" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6784:6990" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -785,13 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -813,22 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -839,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/dev-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
+        <state relative-caret-position="664">
           <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
           <folding />
         </state>
@@ -847,8 +946,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
+        <state relative-caret-position="608">
           <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -861,20 +968,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/index/index.vue">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <marker date="1485226277000" expanded="false" signature="195:283" ph="..." />
+            <marker date="1485226277000" expanded="true" signature="304:427" ph="{&quot;name&quot;: 'app'...}" />
+            <marker date="1485226277000" expanded="true" signature="347:421" ph="{&quot;v-header&quot;: header...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="135" column="82" selection-start-line="135" selection-start-column="82" selection-end-line="135" selection-end-column="82" />
           <folding>
             <element signature="n#section#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#7596#9734#0" expanded="false" />
-            <marker date="1485152831000" expanded="true" signature="5140:5543" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5162:5206" ph="{&quot;v-feature&quot;: Feature...}" />
-            <marker date="1485152831000" expanded="true" signature="5227:5537" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5255:5526" ph="{...}" />
-            <marker date="1485152831000" expanded="true" signature="5304:5510" ph="{...}" />
+            <element signature="n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#7177#7460#0" expanded="false" />
+            <element signature="e#7489#8166#0" expanded="false" />
+            <element signature="e#8196#11328#0" expanded="false" />
+            <element signature="e#8419#8893#0" expanded="false" />
+            <marker date="1485227661000" expanded="true" signature="6620:7023" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6642:6686" ph="{&quot;v-feature&quot;: Feature...}" />
+            <marker date="1485227661000" expanded="true" signature="6707:7017" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6735:7006" ph="{...}" />
+            <marker date="1485227661000" expanded="true" signature="6784:6990" ph="{...}" />
           </folding>
         </state>
       </provider>

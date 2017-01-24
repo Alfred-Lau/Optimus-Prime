@@ -21,6 +21,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet">
-
+    #app
+        background-color: #ededed;
 
 </style>

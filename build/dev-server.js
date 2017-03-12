@@ -38,38 +38,38 @@ var AK = '9m4elwN8FECNzS6aGwAwaFIsWW7qbSks'
 *
 * */
 var url_place_detail = 'http://api.map.baidu.com/place/v2/detail?uid=5a8fb739999a70a54207c130&output=json&scope=2&ak=' + AK
-
-var apiRoutes = express.Router();
-
-apiRoutes.get('/charts', function (req, res) {
-    let result = ''
-    const URL = 'http://localhost:3030/data'
-    request(URL, function (error, response, body) {
-        if (!error && response.statusCode == 200) {
-            result = JSON.parse(body)
-            res.json({
-                data: result
-            })
-        }
-    })
-});
-
-apiRoutes.get('/detail', function (req, res) {
-    let result
-    request(url_place_detail, function (error, response, body) {
-        if(!error && response.statusCode == 200){
-            result = JSON.parse(body)
-            res.json({
-                data:result
-            })
-        }
-    })
-})
-
-
-//express 加载路由插件
-app.use('/api', apiRoutes);
-
+//
+// var apiRoutes = express.Router();
+//
+// apiRoutes.get('/charts', function (req, res) {
+//     let result = ''
+//     const URL = 'http://localhost:3030/data'
+//     request(URL, function (error, response, body) {
+//         if (!error && response.statusCode == 200) {
+//             result = JSON.parse(body)
+//             res.json({
+//                 data: result
+//             })
+//         }
+//     })
+// });
+//
+// apiRoutes.get('/detail', function (req, res) {
+//     let result
+//     request(url_place_detail, function (error, response, body) {
+//         if(!error && response.statusCode == 200){
+//             result = JSON.parse(body)
+//             res.json({
+//                 data:result
+//             })
+//         }
+//     })
+// })
+//
+//
+// //express 加载路由插件
+// app.use('/api', apiRoutes);
+//
 
 var compiler = webpack(webpackConfig)
 

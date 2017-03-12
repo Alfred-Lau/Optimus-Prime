@@ -11,15 +11,15 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="static/img/ad001-l.jpg" media="(min-width:50em)">
-                        <source srcset="static/img/ad001-m.png" media="(min-width:30em)">
+                        <source srcset="static/img/ad002-l.jpg" media="(min-width:50em)">
+                        <source srcset="static/img/ad002-m.png" media="(min-width:30em)">
                         <img src="static/img/ad002-m.png">
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="static/img/ad001-l.jpg" media="(min-width:50em)">
-                        <source srcset="static/img/ad001-m.png" media="(min-width:30em)">
+                        <source srcset="static/img/ad003-l.jpg" media="(min-width:50em)">
+                        <source srcset="static/img/ad003-m.png" media="(min-width:30em)">
                         <img src="static/img/ad003-m.png">
                     </picture>
                 </div>

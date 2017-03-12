@@ -182,8 +182,8 @@
             }
         },
         created () {
-            this.$http.get('/api/charts').then((res) => {
-                let detail = res.data.data
+            this.$http.get('http://127.0.0.1:3030/data').then((res) => {
+                let detail = res.data
                 //下面的一行很重要!!! 解析JSON格式字符串
                 let data = JSON.parse(detail);
                 for (let tmp of data) {
@@ -197,7 +197,7 @@
         },
         methods: {
             loadDetail (){
-                this.$http.get('/api/detail').then((res) => {
+                this.$http.get('http://127.0.0.1:3030/data').then((res) => {
                     let data = res.data.data
                     this.detail = data.result
                     console.log(detailPOL)

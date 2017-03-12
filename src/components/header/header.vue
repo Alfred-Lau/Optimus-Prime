@@ -70,7 +70,8 @@
                 margin-left: 10px
                 line-height: 88px
                 font-family "papyrus"
-                vertical-align: top;
+                position: relative
+                top: 20px
         .main-first
             text-align right
             flex 1
@@ -79,14 +80,16 @@
             li
                 display: inline-block
                 border-left: 1px solid #f0ede9;
+                height:100%
                 .tab-item
                     display: inline-block;
                     padding: 0 3rem;
-                    line-height: 5.5rem;
+                    line-height: 88px;
                     font-size: 1.6rem;
                     font-weight: bold;
                     color: #7c7a65;
                     text-decoration: none;
+                    height:100%
 
     .spec
         width: 100%

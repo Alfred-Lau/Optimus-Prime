@@ -316,15 +316,17 @@
             background-color: #fff
             .img-wrapper
                 display inline-block
-                width: 20%
+                width: 15%
                 margin-left: 100px;
             .title-ul
                 display: inline-block
                 width: 70%
                 vertical-align: top
+                padding-top: 13px;
                 .title-item
                     display: inline-block
-                    width: 15%
+                    width: 22%
+                    text-align: center
                     .sub-title
                         font-size: 2.6rem;
                         line-height: 3rem;
@@ -332,5 +334,7 @@
                         .content-item
                             font-size: 1.4rem;
                             line-height: 2.4rem;
+                            padding-top: 14px
+
 </style>
 

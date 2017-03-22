@@ -9,6 +9,14 @@ import VueMaterial from 'vue-material'
 import VueBlu from 'vue-blu'
 import 'vue-blu/dist/css/vue-blu.min.css'
 
+//import css
+import 'vue-beauty/package/style/vue-beauty.min.css'
+
+//import components
+import vueBeauty from 'vue-beauty'
+
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
 
 import Index from 'components/index/index'
 import Charts from 'components/charts/charts'
@@ -28,6 +36,8 @@ Vue.use(VueRouter)
 Vue.use(VueResource)
 Vue.use(VueMaterial)
 Vue.use(VueBlu)
+Vue.use(vueBeauty)
+Vue.use(ElementUI)
 
 const router = new VueRouter({
   routes,

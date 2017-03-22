@@ -1,5 +1,5 @@
 <template>
-    <div class="index">
+    <div class="index" keep-alive>
         <section class="ad">
             <div class="owl-carousel owl-theme">
                 <div class="item">
@@ -132,9 +132,7 @@
             </div>
         </section>
         <section class="footer">
-            <div class="img-wrapper">
-                <img class="logo" src="static/img/logo.jpg" width="120" height="120">
-            </div>
+            <div class="img-wrapper"></div>
             <ul class="title-ul">
                 <li class="title-item">
                     <h1 class="sub-title">关于我</h1>
@@ -147,7 +145,8 @@
                     <h1 class="sub-title">维护项目</h1>
                     <ul class="content-ul">
                         <li class="content-item"><a href="https://github.com/Alfred-Lau/my_website">My_website</a></li>
-                        <li class="content-item"><a href="https://github.com/Alfred-Lau/my_personal_weblife">Electron</a></li>
+                        <li class="content-item"><a
+                                href="https://github.com/Alfred-Lau/my_personal_weblife">Electron</a></li>
                     </ul>
                 </li>
                 <li class="title-item">
@@ -171,7 +170,6 @@
 
 <script type="text/ecmascript-6">
     import Feature from 'components/feature/feature'
-
     export default {
         components: {
             'v-feature': Feature
@@ -226,6 +224,8 @@
                 color: #999;
                 font-size: 1.2rem;
                 margin-right: 1rem;
+            .content:not(:last-child)
+                margin-bottom: 0px
             .more
                 position: absolute
                 right: 2rem
@@ -314,14 +314,21 @@
                     border-top: 1px solid #eee;
         .footer
             background-color: #fff
+            position: relative
             .img-wrapper
                 display inline-block
-                width: 15%
-                margin-left: 100px;
+                width: 120px
+                height: 120px
+                position: absolute
+                top: 60px
+                left: 140px
+                background url("logo.jpg")
+                border-radius 50%
             .title-ul
                 display: inline-block
                 width: 70%
                 vertical-align: top
+                margin-left: 20%
                 padding-top: 13px;
                 .title-item
                     display: inline-block

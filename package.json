@@ -10,8 +10,10 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "element-ui": "^1.2.5",
     "stylus-loader": "^2.4.0",
     "vue": "^2.1.0",
+    "vue-beauty": "^0.1.1",
     "vue-blu": "^0.1.9",
     "vue-echarts": "^2.2.0",
     "vue-material": "^0.7.1",

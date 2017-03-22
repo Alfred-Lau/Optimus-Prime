@@ -47,7 +47,7 @@
             -webkit-box-shadow: 3px 3px red, -1em 0 0.4em olive;
             -moz-box-shadow: 3px 3px red, -1em 0 0.4em olive;
             box-shadow: 3px 3px red, -1em 0 0.4em olive;
-            width: 600px;
+            width: 40%;
             height: 300px;
             padding: 10px;
             border: 1px solid #ccc;

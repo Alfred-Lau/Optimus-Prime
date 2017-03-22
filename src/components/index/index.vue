@@ -139,15 +139,15 @@
                 <li class="title-item">
                     <h1 class="sub-title">关于我</h1>
                     <ul class="content-ul">
-                        <li class="content-item">GitHub</li>
+                        <li class="content-item"><a href="https://github.com/Alfred-Lau">GitHub</a></li>
                         <li class="content-item">Email</li>
                     </ul>
                 </li>
                 <li class="title-item">
                     <h1 class="sub-title">维护项目</h1>
                     <ul class="content-ul">
-                        <li class="content-item">n-novel</li>
-                        <li class="content-item">my_website</li>
+                        <li class="content-item"><a href="https://github.com/Alfred-Lau/my_website">My_website</a></li>
+                        <li class="content-item"><a href="https://github.com/Alfred-Lau/my_personal_weblife">Electron</a></li>
                     </ul>
                 </li>
                 <li class="title-item">

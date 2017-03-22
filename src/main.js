@@ -4,6 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import VueMaterial from 'vue-material'
+
+import VueBlu from 'vue-blu'
+import 'vue-blu/dist/css/vue-blu.min.css'
+
+
 import Index from 'components/index/index'
 import Charts from 'components/charts/charts'
 import Css3h5 from 'components/css3h5/css3h5'
@@ -20,6 +26,8 @@ const routes = [
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
+Vue.use(VueMaterial)
+Vue.use(VueBlu)
 
 const router = new VueRouter({
   routes,

@@ -210,8 +210,9 @@
 <style lang="stylus" rel="stylesheet/stylus">
     .charts
         display flex
-        width: 80%
-        margin: 80px auto
+        padding: 40px
+        padding-bottom: 100px
+        background-color: #fff
         .chart-wrapper
             float: 1;
             display: inline-block

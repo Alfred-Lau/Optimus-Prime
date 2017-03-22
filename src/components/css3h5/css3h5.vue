@@ -37,9 +37,9 @@
 <style lang="stylus" rel="stylesheet/stylus">
 
     .css3h5
-        width: 90%
         height: 100%;
-        margin: 20px auto
+        padding: 30px
+        background-color: #fff
         .css3h5-feature
             display: inline-block
             color: red;
@@ -47,7 +47,7 @@
             -webkit-box-shadow: 3px 3px red, -1em 0 0.4em olive;
             -moz-box-shadow: 3px 3px red, -1em 0 0.4em olive;
             box-shadow: 3px 3px red, -1em 0 0.4em olive;
-            width: 40%;
+            width: 45%;
             height: 300px;
             padding: 10px;
             border: 1px solid #ccc;

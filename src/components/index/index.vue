@@ -212,8 +212,9 @@
             font-size: 1.4rem;
             line-height: 3rem;
             background-color: #fff;
-            box-shadow: 0 0 4px #ccc;
+            /*box-shadow: 0 0 4px #ccc;*/
             padding: 5px 0
+            box-shadow: 0 6px 6px -3px rgba(0,0,0,.2), 0 10px 14px 1px rgba(0,0,0,.14), 0 4px 18px 3px rgba(0,0,0,.12);
             .date, .content, .more
                 display: inline-block
             .date::before
@@ -236,7 +237,8 @@
             font-size: 1.4rem;
             background-color: #f5f9fa;
             border-top: 2px solid #f90;
-            box-shadow: 0 0 4px #ccc
+            /*box-shadow: 0 0 4px #ccc*/
+            box-shadow: 0 6px 6px -3px rgba(0,0,0,.2), 0 10px 14px 1px rgba(0,0,0,.14), 0 4px 18px 3px rgba(0,0,0,.12);
             .title
                 display: inline-block
                 width: 20%;

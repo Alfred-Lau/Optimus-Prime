@@ -18,8 +18,9 @@
         display: inline-block
         font-size: 1.4rem;
         background-color: #fff;
-        box-shadow: 0 0 4px #ccc;
+        /*box-shadow: 0 0 4px #ccc;*/
         padding: 1rem;
+        box-shadow: 0 6px 6px -3px rgba(0,0,0,.2), 0 10px 14px 1px rgba(0,0,0,.14), 0 4px 18px 3px rgba(0,0,0,.12);
         .title
             display: inline-block
             width: 40%;

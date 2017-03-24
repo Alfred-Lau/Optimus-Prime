@@ -16,7 +16,13 @@
                 <el-menu-item index="index">首页</el-menu-item>
                 <el-menu-item index="charts">可视化</el-menu-item>
                 <el-menu-item index="css3h5">CSS3 && H5</el-menu-item>
-                <el-menu-item index="project">个人项目</el-menu-item>
+                <el-submenu index="project">
+                    <template slot="title">个人项目</template>
+                    <el-menu-item index="project">LonelyPlanet</el-menu-item>
+                    <el-menu-item index="">my_personal_weblife</el-menu-item>
+                    <el-menu-item index="">movie</el-menu-item>
+                    <el-menu-item index="">Mobile_Elem</el-menu-item>
+                </el-submenu>
                 <el-submenu index="about">
                     <template slot="title">关于我</template>
                     <el-menu-item index="">博客</el-menu-item>
@@ -92,8 +98,11 @@
             .el-menu-item
                 line-height: 88px
                 height: 88px
+                padding-left: 35px
+                padding-right: 35px
             .el-submenu
                 margin-top:0
+                padding-right: 35px
                 .el-submenu__title
                     margin-top:0
                     height: 88px

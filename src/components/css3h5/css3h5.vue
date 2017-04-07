@@ -30,8 +30,14 @@
                 — Oscar Wilde, The Picture of Dorian Gray
             </div>
         </md-whiteframe>
-        <md-whiteframe md-elevation="10" class="css3h5-item"></md-whiteframe>
-        <md-whiteframe md-elevation="10" class="css3h5-item"></md-whiteframe>
+        <md-whiteframe md-elevation="10" class="css3h5-item">
+            <canvas id="ball" width="1000" height="430">
+            </canvas>
+        </md-whiteframe>
+        <md-whiteframe md-elevation="10" class="css3h5-item">
+            <ball></ball>
+            <shadow></shadow>
+        </md-whiteframe>
         <md-whiteframe md-elevation="10" class="css3h5-item"></md-whiteframe>
         <md-whiteframe md-elevation="10" class="css3h5-item"></md-whiteframe>
         <md-whiteframe md-elevation="10" class="css3h5-item"></md-whiteframe>
@@ -41,6 +47,59 @@
 <script type="text/ecmascript-6">
     export default {
         methods: {
+            initCanvasForBall: function (id) {
+                var canvas = document.getElementById(id);
+                // 确定是否支持 canvas
+                if (canvas.getContext) {
+                    var ctx = canvas.getContext('2d')
+                    var raf;
+                    var ball = {
+                        x: 100,
+                        y: 100,
+                        vx: 5,
+                        vy: 2,
+                        radius: 25,
+                        color: 'blue',
+                        // 初始状态
+                        draw: function() {
+                            ctx.beginPath();
+                            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
+                            ctx.closePath();
+                            ctx.fillStyle = this.color;
+                            ctx.fill();
+                        }
+                    };
+
+                    function draw() {
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                        // ctx.clearRect(0, 0, canvas.width, canvas.height);
+                        ball.draw();
+                        ball.vy *= .99;
+                        ball.vy += .25;
+                        ball.x += ball.vx;
+                        ball.y += ball.vy;
+                        if (ball.y + ball.vy > canvas.height || ball.y + ball.vy < 0) {
+                            ball.vy = -ball.vy;
+                        }
+                        if (ball.x + ball.vx > canvas.width || ball.x + ball.vx < 0) {
+                            ball.vx = -ball.vx;
+                        }
+                        raf = window.requestAnimationFrame(draw);
+                    }
+
+                    canvas.addEventListener('mouseover', function(e) {
+                        raf = window.requestAnimationFrame(draw);
+                    });
+
+                    canvas.addEventListener('mouseout', function(e) {
+                        window.cancelAnimationFrame(raf);
+                    });
+
+                    ball.draw();
+
+                }
+            },
             initCanvasForClock: function (id) {
                 console.log('in')
 
@@ -160,6 +219,7 @@
         mounted (){
             this.initCanvasForClock('clock')
             this.initCanvasForFalls('falls')
+            this.initCanvasForBall('ball')
         }
     }
 </script>
@@ -296,4 +356,31 @@
             transform-origin: bottom right;
             border-bottom-left-radius: .5em;
             box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.15)
+        .css3h5-item:nth-child(9)
+            ball
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                position: absolute;
+                left: 50%;
+                bottom: 20px;
+                margin-left: -50px;
+                background-color: #34538b;
+                background-image: -webkit-radial-gradient(100px 100px at 50px 20px, #a0b3d6, #34538b);
+                background-image: -moz-radial-gradient(100px 100px at 50px 20px, #a0b3d6, #34538b);
+                background-image: radial-gradient(100px 100px at 50px 20px, #a0b3d6, #34538b);
+                cursor: move;
+                z-index: 1;
+            shadow
+                position: absolute;
+                width: 100px;
+                height: 30px;
+                position: absolute;
+                left: 50%;
+                bottom: 5px;
+                margin-left: -50px;
+                background-image: -webkit-radial-gradient(ellipse closest-side, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+                background-image: -moz-radial-gradient(ellipse closest-side, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+                background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+
 </style>

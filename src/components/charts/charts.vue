@@ -182,7 +182,7 @@
             }
         },
         created () {
-            this.$http.get('http://project.lazy-minus-your-intelligence.com:3030/data').then((res) => {
+            this.$http.get('http://lazy-minus-your-intelligence.com:3030/data').then((res) => {
                 let detail = res.data
                 //下面的一行很重要!!! 解析JSON格式字符串
                 let data = JSON.parse(detail);
@@ -197,7 +197,7 @@
         },
         methods: {
             loadDetail (){
-                this.$http.get('http://project.lazy-minus-your-intelligence.com:3030/data').then((res) => {
+                this.$http.get('http://lazy-minus-your-intelligence.com:3030/data').then((res) => {
                     let data = res.data.data
                     this.detail = data.result
                     console.log(detailPOL)

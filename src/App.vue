@@ -4,6 +4,7 @@
         <router-view></router-view>
         <v-footer></v-footer>
     </div>
+
 </template>
 
 <script type="text/ecmascript-6">

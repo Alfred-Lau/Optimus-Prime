@@ -9,26 +9,16 @@
         <nav class="main">
             <a class="brand">
                 <div class="logo-img"></div>
-                <span class="text">Lonely Planet</span>
+                <span class="text">Optimus Prime</span>
             </a>
             <el-menu router="true" theme="light" :default-active="activeIndex" class="el-menu-demo" mode="horizontal"
                      @select="handleSelect">
                 <el-menu-item index="index">首页</el-menu-item>
-                <el-menu-item index="charts">可视化</el-menu-item>
-                <el-menu-item index="css3h5">CSS3 && H5</el-menu-item>
-                <el-submenu index="project">
-                    <template slot="title">个人项目</template>
-                    <el-menu-item index="project">LonelyPlanet</el-menu-item>
-                    <el-menu-item index="">my_personal_weblife</el-menu-item>
-                    <el-menu-item index="">movie</el-menu-item>
-                    <el-menu-item index="">Mobile_Elem</el-menu-item>
-                </el-submenu>
-                <el-submenu index="about">
-                    <template slot="title">关于我</template>
-                    <el-menu-item index="">博客</el-menu-item>
-                    <el-menu-item index="">Github</el-menu-item>
-                    <el-menu-item index="about">简历</el-menu-item>
-                </el-submenu>
+                <el-menu-item index="charts">Echarts</el-menu-item>
+                <el-menu-item index="css3h5">CSS Tips</el-menu-item>
+                <el-menu-item index="project">Projects</el-menu-item>
+                <el-menu-item index="about">Whoami</el-menu-item>
+
             </el-menu>
         </nav>
     </div>
@@ -78,7 +68,7 @@
                 height: 60px
                 width: 60px
                 border-radius 50%
-                background: url("logo.jpg")
+                background: url("avatar.png")
                 vertical-align: top;
                 margin: 10px 20px;
             .text

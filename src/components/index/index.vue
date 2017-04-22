@@ -324,7 +324,7 @@
                 position: absolute
                 top: 60px
                 left: 140px
-                background url("logo.jpg")
+                background url("avatar.png")
                 border-radius 50%
             .title-ul
                 display: inline-block

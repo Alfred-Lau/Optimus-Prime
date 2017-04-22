@@ -1,28 +1,20 @@
 <template>
     <div class="about">
-        <md-card class='md-with-hover'>
-            <md-card-header>
-                <md-avatar>
-                    <img src="static/img/avatar.png" alt="People">
-                </md-avatar>
-
-                <div class="md-title">Title goes here</div>
-                <div class="md-subhead">Subtitle here</div>
-            </md-card-header>
-
-            <md-card-media>
-                <img src="static/img/card-image-1.jpg" alt="People">
-            </md-card-media>
-
-            <md-card-content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea nostrum.
-            </md-card-content>
-
-            <md-card-actions>
-                <md-button>Action</md-button>
-                <md-button>Action</md-button>
-            </md-card-actions>
-        </md-card>
+        <div class="timeline-wrapper">
+            <timeline class="timeline">
+                <timeline-item date="2 minutes ago" icon="twitter" type="primary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante soe aiea ose dos soois.
+                </timeline-item>
+                <timeline-item type="primary" date="Sat, 5 Mar">
+                    <p>adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p><a href="">news center</a></p>
+                    <p><img src="https://pek3a.qingstor.com/warehouse1/c1.jpg" /></p>
+                </timeline-item>
+                <timeline-item date="Sun, 11 Feb" icon="wechat" type="success">
+                    Call to customer Jacob and discuss the detail.
+                </timeline-item>
+            </timeline>
+        </div>
     </div>
 </template>
 
@@ -37,8 +29,7 @@
         margin: 0 auto
         padding:100px 100px
         background-color: #fff
-        .md-with-hover
-            width:300px
-
-
+        .timeline-wrapper
+            width:400px
+            padding: 20px
 </style>

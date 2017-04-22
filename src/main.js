@@ -34,6 +34,9 @@ const routes = [
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
+
+Vue.http.options.root = 'http://project.lazy-minus-your-intelligence.com:3030'
+
 Vue.use(VueMaterial)
 Vue.use(VueBlu)
 Vue.use(vueBeauty)

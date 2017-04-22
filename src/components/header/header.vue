@@ -9,7 +9,6 @@
         <nav class="main">
             <a class="brand">
                 <div class="logo-img"></div>
-                <span class="text">Optimus Prime</span>
             </a>
             <el-menu router="true" theme="light" :default-active="activeIndex" class="el-menu-demo" mode="horizontal"
                      @select="handleSelect">
@@ -62,6 +61,7 @@
     .main
         width: 100%
         display: flex
+        background: #eef1f6
         .brand
             .logo-img
                 display: inline-block
@@ -71,20 +71,14 @@
                 background: url("avatar.png")
                 vertical-align: top;
                 margin: 10px 20px;
-            .text
-                font-size 50px
-                margin-left: 10px
-                line-height: 88px
-                font-family "papyrus"
-                position: relative
-                bottom: -8px;
+
         .el-menu-demo
             position:absolute
             right:0
             flex 1
             margin: 0
             padding: 0
-            height 88px
+            height 80px
             .el-menu-item
                 line-height: 88px
                 height: 88px

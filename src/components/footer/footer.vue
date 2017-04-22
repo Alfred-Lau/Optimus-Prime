@@ -10,7 +10,14 @@
             <li class="grant-item"><span class="icon icon-gs">北京工商</span></li>
         </ul>
         <div class="copyright">
-            <span class="text">CodeTank ®版权所有 2016-2016</span>
+            <span class="text">
+                Copyright© 2016-2017 Optimus Prime
+            </span>
+            <span class="a-text">
+                    <a target="_blank" href="http://www.miibeian.gov.cn/">
+                    京ICP备16048047号-1
+                    </a>
+            </span>
         </div>
     </div>
 </template>
@@ -73,4 +80,13 @@
             margin-top: 1.5rem
             .text
                 color: #999
+            .a-text
+                display block
+                color #999
+                a
+                    text-decoration none
+                    color #999
+                    border-bottom:none
+                &:hover
+                    text-decoration underline
 </style>

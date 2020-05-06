@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "element-ui": "^1.2.5",
+    "request": "^2.85.0",
     "stylus-loader": "^2.4.0",
     "vue": "^2.1.0",
     "vue-beauty": "^0.1.1",

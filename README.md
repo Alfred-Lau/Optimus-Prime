@@ -1,13 +1,4 @@
 # Optimus-Prime1.0  
-你怎么摧残我都行,反正最后我会赢.
-
-## 源代码
-源代码地址：👉 [GitHub](https://github.com/Alfred-Lau/Optimus-Prime)  
-欢迎大家star和follow.  :blush:
-
-## 预览
-### 在线预览
-在线预览地址：👉 [Optimus-Prime](http://project.lazy-minus-your-intelligence.com/)
 
 ## 技术栈
 **Vue2**：采用最新Vue2的语法 :grin:
